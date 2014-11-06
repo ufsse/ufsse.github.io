@@ -45,13 +45,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a data-toggle="collapse" data-target=".navbar-collapse" href="#aboutus">About Us</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a data-toggle="collapse" data-target=".navbar-collapse" href="#officers">Officers</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a data-toggle="collapse" data-target=".navbar-collapse" href="#meetings">Meetings</a>
                     </li>
                 </ul>
             </div>
@@ -73,37 +73,51 @@
     <!-- Page Content -->
     <div class="container">
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="aboutus">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
+        <div class="featurette">
+            <img class="featurette-image img-square img-responsive pull-right" src="logo.png">
+            <h2 class="featurette-heading">What Is The
+                <span class="text-muted">Society Of Sales Engineers?</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">The Society of Sales Engineers is an organization that focuses on building a member base that possesses 
+            both the technical skills to solve complex problems and the interpersonal skills to interface with 
+            customers, management, and colleagues every day. Our members are not afraid to approach people 
+            and not afraid to take on a challenge. We encourage our members to step out of their comfort zone, 
+            reach out to companies, and seek jobs for top companies in areas such as Technical Sales, Marketing, or 
+            Consulting.<br><br>
+            SSE was founded in Fall 2011 by five Industrial Engineering students who saw a need for an organization 
+            geared toward helping outgoing engineers get jobs well aligned with their personalities and interests. 
+            Since then, the organization has grown to over 70 members and continues to grow every semester. 
+            Over time, we have developed a solid foundation of affiliated companies that includes Trane, Siemens, Parker Hannifin, Johnson Controls, Nielsen, Citrix, Certainty 3D, and we are reaching out to new companies on a 
+            regular basis to give them the opportunity to get involved. Our general body meetings are a great way
+            for company representatives to meet our members and officers and to take resumes for potential 
+            candidates.<br><br>
+            If you are a company representative or a potential member looking to get involved with us, please feel
+            free to reach out to our current President, Michael Romano, at <a href="mailto:mike.romano@ufsse.com">Mike.Romano@ufsse.com</a>. </p>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="officers">
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
+            <img class="featurette-image img-circle img-responsive pull-left" src="officers.jpg">
+            <h2 class="featurette-heading">Who Are
+                <span class="text-muted">Our Officers?</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead"><b>President</b>: Michael Romano<br><b>External Vice President</b>: Evan Ohbayashi<br><b>Internal Vice President</b>: Maria Lyn Cauthorn<br><b>Treasurer</b>: Erick Stein<br><b>Networking Director</b>: Ian Malone<br><b>Public Relations</b>: Christina Duncan<br><b>Webmaster</b>: Christian Young<br><b>Membership Director</b>: Leigh Rubin<br><b>Communications</b>: Royce Sages<br><b>BEC Representative</b>: Michael Larkin</p>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="meetings">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
+        <div class="featurette">
+            <img class="featurette-image img-square img-responsive pull-right" src="certainty3d.jpg">
+            <h2 class="featurette-heading">When Is Our
+                <span class="text-muted">Next Meeting?</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Next Meeting: Certainty 3D<br>Meeting Date: Thursday, 11/6/14<br>Meeting Location: Little Hall Room 233<br>More Info: <a href="https://www.facebook.com/events/301131933425508/">Event Page</a><br>Company Info: <a href="http://www.certainty3d.com/">Certainty 3D's Website</a></p>
         </div>
 
         <hr class="featurette-divider">
@@ -112,7 +126,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; UFSSE 2014</p>
                 </div>
             </div>
         </footer>
